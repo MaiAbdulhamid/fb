@@ -1,0 +1,580 @@
+/*Start main rules*/
+body{
+    background-color: #e9eaed;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.flt-left{
+    float: left;
+}
+.flt-right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.display-blc{
+    display: inline;
+}
+.txt-center{
+    text-align: center;
+}
+.nots-back{
+    color: #17233d;
+}
+.blue{
+    background-color: #3b5998;
+}
+.black{
+    color: #000;
+}
+.gray{
+    color: #7f7f7f;
+}
+.light-gray{
+    color: #bec2c9;
+}
+.small{
+    font-size: 13px;
+}
+.title{
+    font-size: 20px;
+    color: #999;
+}
+.letter-case{
+    text-transform: uppercase;
+}
+.full{
+    width: 100%;
+}
+.list ul{
+    list-style: none;
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    padding-left: 0px;
+}
+.list ul li{
+    float: left;
+    margin-left: 4px;
+}
+.list ul li img{
+    max-width: 100%;
+    width: 47px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/*End main rules*/
+
+/*Start nav-bar-section*/
+.nav-bar{
+    background-color: #3b5998;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.nav-bar .left .logo img{
+    width: 28px;
+    margin-right: 5px;
+}
+.nav-bar .input input{
+    width: 300px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: transparent;
+    padding: 5px;
+}
+.nav-bar .search button {
+    margin-left: -5px;
+    padding: 5px 15px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-color: transparent;
+    background-color: #f6f7f9;
+}
+.nav-bar .list {
+    margin-bottom: 0px;
+    margin-top: 6px;
+}
+.nav-bar .list ul li {
+    margin-left: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-bar .list .pro-pic img{
+    width: 25px;
+    margin-right: 10px;
+    float: left;
+    border-radius: 0px;
+}
+.nav-bar .list ul li img{
+	border: 0px;
+	height:19px;
+	width:23px;
+}
+.nav-bar .list .home{
+    background-color: #29487d;
+    padding: 3px;
+    border-radius: 4px;
+}
+.nav-bar .list .nots-icon{
+    color: #17233d;
+    font-size: 20px;
+}
+.nav-bar .list ul li:last-child {
+    margin-left: 70px;
+}
+.nav-bar .list ul li:last-child img{
+    width: 15px;
+    height: 10px;
+    margin-top: 3px;
+ }
+/*End nav-bar section*/
+
+/*Start header section*/
+.header .left{
+    float: left;
+    width: 15.333333%;
+}
+.header .left .pro-pic{
+    width: 164px;
+    background-color: #fff;
+    border: 1px solid #e1e2e6;
+    margin: 15px;
+    margin-left: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+}
+.header .left .pro-pic img{
+    width: 158px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.header .left .name h2{
+    margin-bottom: 0px;
+}
+.header .left .name h2 img{
+    width:12px;
+}
+.header .left .name p{
+    margin-top: 0px;
+}
+.header .left .info .list ul{
+    margin-left: 5px;
+}
+.header .left .info .list ul li{
+    float: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-left: 5px;
+    padding-right: 75px;
+    color:#6b6e74;
+}
+.header .left .info .list ul li.active{
+    background-color: #dee0e3;
+    border-left: 1px solid #4267b2;
+}
+.header .left .info .list ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.header .left .info .create-page button{
+    color: #fff;
+    background-color: #42b72a;
+    border-color: transparent;
+    padding: 5px 15px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.header .right{
+    float: right;
+    width: 84%;
+}
+.header .right .profile-options{
+    padding: 10px 15px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: -3px;
+}
+.header .right .profile-options button{
+    padding: 5px 15px;
+    background-color: #f6f7f9;
+    border-color: #bec2c9;
+        border-color: transparent;
+    border: 1px solid #bec2c9;
+}
+.header .right .profile-options button img{
+    margin-right: 5px;
+    width: 12px;
+}
+.like button{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-right: -2px;
+}
+.more button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -2px;
+    cursor: pointer;
+}
+.contact-us button{
+    color: #fff;
+    background-color: #4080ff !important;
+    width: 250px;
+    border-radius: 5px;
+}
+/*End header section*/
+
+/*Start posts section*/
+.posts{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.posts .left{
+    width: 57%;
+    margin-right: 15px;
+    float: left;
+}
+.posts .left .status .status-title {
+    background-color: #f6f7f9;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+.posts .left .status .status-title .upload div{
+    margin-left: 15px;
+}
+.posts .left .status .status-title .upload .upload-stat i{
+    color: #6e8ed2;
+}
+.posts .left .status .status-title .upload .upload-photo i {
+    color: #d19867;
+}
+.posts .left .status .status-title .upload .upload-photo span {
+    color: #6e8ed2;
+}
+.posts .left .status .status-title .privacy img{
+    width: 25px;
+    margin-right: 5px;
+    margin-top: -4px;
+}
+.posts .left .status .stauts-input{
+    margin-bottom: -35px;
+}
+.posts .left .status .stauts-input img{
+	width: 40px;
+    position: relative;
+    top: -0.5px;
+    left: 15px;
+    z-index: 200;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.posts .left .status .stauts-input input{
+    width: 89%;
+    padding-left: 64px;
+    padding-right: 9.5px;
+    line-height: 3.5;
+    border: 1px solid #ccc;
+    position: relative;
+    top: -50px;
+    right: -5px;
+    left: 0px;
+}
+/**************************/
+.posts .left,
+.posts .right{
+    margin-top: 15px;
+    float: left;
+}
+.posts .left{
+    margin-right: 23px;
+}
+.posts .post{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+.posts .post .title .title-para h3{
+    margin-bottom: 0px;
+}
+.posts .post .title .title-para span{font-size: 13px;}
+.posts .post .title img{
+    width: 70px;
+    height: 71px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    margin-top: 8px;
+    border-radius: 5px;
+}
+.posts .post .title h6{
+    margin: 5px;
+}
+.posts .post .post-content{
+    border: 1px solid #eee;
+}
+.posts .post .img img{
+    max-width: 100%;
+    width:100%;
+    height:300px;
+}
+.posts .post .para{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.posts .post .para .large{
+    font-size: 20px;
+    color: #999;
+}
+.posts .post .share-comm-like{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #d7d7d7;
+    margin-top: 15px;
+}
+.posts .post .share-comm-like button{
+    background-color: #fff;
+    color: #676767;
+    border: transparent;
+    border-radius: 4px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.posts .post .share-comm-like .like{
+    padding: 5px 10px;
+}
+.posts .post .share-comm-like .share{
+    padding: 5px 10px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.posts .post .share-comm-like .input .comm-img{
+    
+}
+.posts .post .share-comm-like .input .comm-img img{
+    width: 40px;
+    height: 37px;
+    margin-right: 5px;
+}
+.posts .post .share-comm-like .input input{
+    width: 576px;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+}
+.posts .post .share-comm-like .input .emo{
+    position: relative;
+    top: -28px;
+    right: 15px;
+}
+/**************************/
+.posts .right{
+    width: 40%;
+    float: right;
+}
+.right-container{
+    width: 280px;
+}
+.posts .right .address{
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.posts .right .address p{
+    margin: 0px;
+}
+.posts .right .address .rate{
+    color: #4080ff;
+}
+.posts .right .search{
+    background-color: #fff;
+    padding-left: 5px;
+}
+.posts .right .search input{
+    width: 53.5%;
+    border: transparent;
+    padding: 5px;
+}
+.posts .right .optns{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.posts .right .optns .optn {
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+}
+.posts .right .optns .optn img{
+    width: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.posts .right .optns .optn p{
+    margin: 0px;
+}
+.posts .right .optns .optn .fa-user-plus{
+    margin-right: 21px;
+    margin-left: 9px;
+}
+.posts .right .optns .optn .star{
+    color: #fff;
+    padding: 3px;
+    line-height: 0.5;
+    border-radius: 14px;
+    margin-top: 9px;
+    font-size: 10px;
+    margin-right: 15px;
+}
+.posts .right .about{
+    background-color: #fff;
+}
+.posts .right .about .title{
+    background-color: #f6f7f9;
+    font-size: 15px;
+    padding: 10px 5px;
+    color: #4d4d4d;
+}
+.posts .right .about .list ul{
+    margin: 0px;
+}
+.posts .right .about .list ul li{
+    float: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 13px;
+}
+.posts .right .about .list ul li i{
+    margin-right: 10px;
+}
+.posts .right .about .list ul .ask{
+    color: #80aaff;
+}
+.posts .right .about .list ul .ask a{
+    color: #80aaff;
+    text-decoration: underline;
+}
+.save a{
+    color: #36589f;
+}
+.posts .right .about .list ul li a{
+    text-decoration: none;
+}
+.posts .right .about .list ul li a{
+    text-decoration: none;
+}
+.posts .right .opinion{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    overflow: hidden;
+}
+.posts .right .opinion .rate{
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.posts .right .opinion .rate .blue{
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 16px;
+}
+.posts .right .opinion h3{
+    margin: 0px;
+    padding: 5px;
+}
+.posts .right .opinion .review{
+    border-top: 1px solid #ccc;
+}
+.posts .right .opinion .review img{
+    width: 45px;
+    margin-left: 15px;
+}
+.posts .right .opinion .review p{
+    color: #516eac;
+}
+.posts .right .photo{
+    overflow: hidden;
+    background-color: #fff;
+}
+.posts .right .photo .title{
+    border: 1px solid #ddd;
+    background-color: #f6f7f9;
+    padding: 10px 5px;
+}
+.posts .right .photo .title p {
+    margin: 0px;
+}
+.posts .right .photo .list{
+    padding-top: 5px;
+    border: 1px solid #ddd;
+}
+.posts .right .photo .list li img{
+    width: 85px;
+    height: 100px;
+    border-radius: 0px;
+}
+.posts .right .liked{
+    overflow: hidden;
+    background-color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.posts .right .liked .title{
+    border: 1px solid #ddd;
+    background-color: #f6f7f9;
+    padding: 10px 5px;
+}
+.posts .right .liked .title p{
+    margin: 0px;
+}
+.posts .right .liked .page{
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 10px 5px;
+}
+.posts .right .liked .page .name{
+    
+}
+.posts .right .liked .page .name h3{
+    
+}
+.posts .right .liked .page .img img{
+    width: 55px;
+}
+.posts .right .liked .page .btn{
+    margin-top: 19px;
+}
+.posts .right .liked .page .btn button{
+    background-color: #f6f7f9;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #888;
+}
+/*End posts section*/
+
+
+
+
+
+
+
+
+
